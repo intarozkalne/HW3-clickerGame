@@ -1,0 +1,64 @@
+
+body{
+    
+}
+
+h1{
+    padding: 15px;
+    text-align: center;
+    color: rgb(5, 5, 83);
+    font-size: 3em;
+}
+
+#clickCounter,#bonusCounter{
+    padding: 15px;
+    padding-right: 50px;
+    text-align: center;
+    color:rgb(5, 5, 83);
+    font-size: 2em;
+}
+
+#bonusCounter{
+    font-size: 1.5em;
+}
+
+#clickHere{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+#clickHere:active{
+    transform:translateY(2px);
+}
+
+#cubeHolder{
+    width:100vW;
+    height: 100vh;
+}
+
+#cubeHolder div{
+    background-color: rgb(224, 221, 36);
+    width:100px;
+    height:50px;
+    border-radius: 40%;
+    text-align: center;
+    color:rgb(5, 5, 83);
+    font-weight: bold;
+    position: absolute;
+    border: 1px solid rgb(5, 5, 83);
+    cursor: pointer;
+}
+
+h2{
+    font-size: 2em;
+    color:rgb(5, 5, 83);
+}
+
+li{
+    font-size: 1.2em;
+    color:rgb(5, 5, 83); 
+}
